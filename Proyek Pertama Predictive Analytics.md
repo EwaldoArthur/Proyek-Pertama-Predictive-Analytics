@@ -1,36 +1,36 @@
 # Laporan Proyek Machine Learning - Albert Ewaldo Arthur Daeli
 
-Domain Proyek
+## Domain Proyek
 
 Dari tahun ketahun tren data penjualan mobil di Indonesia selalu tidak stabil ada kenaikan dan ada penurunan, 
 banyaknya faktor yang menyebabkan trend penjualan mobil di Indonesia tidak stabil mulai dari tingkat 
 pendapatan yang menurun hingga ke tidak stabilan harga mobil itu sendiri.
 
-Business Understanding
+## Business Understanding
 
 Oleh karena itu saya membuat prediksi harga mobil dengan menggunakan mechine learning yang bertujuan 
 untuk memberikan harga pasti kepada para customer yang ingin membeli mobil.Dengan adanya prediksi harga mobil yang saya buat 
 maka customer dapat mengetahui harga dengan spesifikasi tahun keluaran mobil, jarak tempuh dan ukuran mobil maka customer dapat mengetahui 
 harga yang harus mereka persiapkan untuk membeli mobil yang mereka inginkan.
 
-Problem Statement
+## Problem Statement
 
 1. Bagaimana membuat model machine learning yang dapat memprediksi harga mobil sesuai keinginan customer
 2. Apa saja yang harus diketahui agar mendapatkan harga mobil yang akurat?
 
-Goals
+## Goals
 
 1. Menggunakan model linear regression untuk memprediksi harga mobil sesuai keinginan customer
 2. Memprediksi spesifikasi mobil yang sudah ditentukan oleh customer
 
-Data Understanding
+## Data Understanding
 
 Data yang saya gunakan pada proyek ini adalah adalah data yang bisa digunakan untuk memprediksi harga mobil 
 yaitu ford dataset yang saya unduh dari website "kaggle.com". dataset ini memiliki 17966 data mobil dan 
 memiliki kategori lainnya. 
 berikut ini adalah link dataset yang saya pakai : https://www.kaggle.com/datasets/adhurimquku/ford-car-price-prediction
 
-Variabel-Variabel Pada Ford Price Dataset
+## Variabel-Variabel Pada Ford Price Dataset
 
 1. Model : Untuk menunjukan merek pada mobil.
 2. Year : Untuk menunjukan tahun produksi pada mobil.
@@ -42,7 +42,7 @@ Variabel-Variabel Pada Ford Price Dataset
 8. Mpg : untuk menunjukan jarak mil untuk per galon atau tangki.
 9. EngineSize : Untuk menunjukan ukuran mesin pada mobil.
 
-Data Preparation
+## Data Preparation
 
 Tahapan yang saya pakai untuk memprediksi harga adalah sebagai berikut
 1. Load Library Python = Digunakan untuk memuat beberapa library python yang digunakan dalam memprediksi harga.
@@ -58,7 +58,7 @@ Tahapan yang saya pakai untuk memprediksi harga adalah sebagai berikut
 7. Prediction = Digunakan untuk memprediksi data yang sudah di modeling.
 
 
-Modeling
+## Modeling
 
 1. Pada tahapan modeling ini, pertama saya membuat variabel x dan y.
 2. Tahap Kedua, saya akan membagi dataset menjadi 2 yaitu training dataset dan test dataset dengan perbandingan 80:20, 
@@ -70,7 +70,7 @@ Modeling
 6. Setelah itu, saya menginput "lin_reg.score" yang berfungsi untuk mencari tahu akurasi pada model menggunakan testing dataset yang sudah di split.
    akurasi yang saya dapat adalah 70%
 
-Evaluation
+## Evaluation
 
 Metrik yang saya pakai adalah accuracy score, confusion matrix, dan classification report
 
@@ -83,7 +83,7 @@ Metrik yang saya pakai adalah accuracy score, confusion matrix, dan classificati
    2. Recall = merupakan tingkat keberhasilan sistem dalam menemukan kembali sebuah informasi. Hasil Recall yang saya dapat adalah 1.00
    3. F1-Score = Merupakan Data yang menggambarkan perbandingan rata-rata precision dan recall yang dibobotkan Hasil yang saya dapatkan dari data F1-Score adalah                    1.00
 
-Kesimpulan
+## Kesimpulan
 
 Dengan adanya prediksi harga mobil yang saya buat dengan menggunakan machine learning, maka customer dapat dengan mudah mengetahui 
 harga yang harus mereka persiapkan untuk membeli mobil dengan spesifikasi yang mereka inginkan. Oleh karena itu menurut saya sistem 
