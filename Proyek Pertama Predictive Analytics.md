@@ -21,7 +21,7 @@ harga yang harus mereka persiapkan untuk membeli mobil yang mereka inginkan.
 ## Goals
 
 1. Menggunakan model linear regression untuk memprediksi harga mobil sesuai keinginan customer
-2. Memprediksi spesifikasi mobil yang sudah ditentukan oleh customer
+2. Memprediksi data mobil yang sudah ditentukan oleh customer
 
 ## Data Understanding
 
@@ -49,10 +49,10 @@ Tahapan yang saya pakai untuk memprediksi harga adalah sebagai berikut
 2. Load Dataset = Digunakan untuk memuat dataset yang akan dipakai untuk diprediksi.
 3. Handling Missing Values = Pada tahap ini digunakan untuk memeriksa atau checking data apakah terdapat missing values atau data yang kosong atau tidak. Data yang saya pakai bernilai 0 berarti data yang saya pakai tidak ada missing values.
 4. Exploratory Data Analysis (EDA) = Digunakan untuk melihat data dalam bentuk diagram. data yang dilihat berupa tahun produksi, data harga pada mobil, dan data jarak tempuh pada mobil.
-- ![Screenshot (633)](https://user-images.githubusercontent.com/111255438/190079114-c5a65fdf-4754-480e-b478-3f76a718cff4.png) - pada gambar ini menampilkan data tahun produksi dalam bentuk diagram 
-- ![Screenshot (635)](https://user-images.githubusercontent.com/111255438/190080722-3c6bca31-c82c-45a3-b730-50ef587aaab9.png) - pada gambar ini menampilkan data harga mobil dalam bentuk diagram 
-- ![Screenshot (636)](https://user-images.githubusercontent.com/111255438/190081881-0dc3f15c-5856-4c8c-a7cf-c7a541c8df22.png) - pada gambar ini menampilkan data jarak tempuh mobil dalam bentuk diagram
-- ![Screenshot (637)](https://user-images.githubusercontent.com/111255438/190082258-d7a05a49-6148-4956-9263-403c57349169.png) - pada gambar ini menampilkan data spesifikasi mobil yang menentukan nilai korelasi
+- ![Data Tahun Produksi](https://user-images.githubusercontent.com/111255438/190100014-865e4c22-4871-422b-b40c-120fe757ed55.png) - pada gambar ini menampilkan data tahun produksi dalam bentuk diagram 
+- ![Data Harga](https://user-images.githubusercontent.com/111255438/190099924-a609d2c5-466e-4e87-88a2-bbe8a40d3b89.png) - pada gambar ini menampilkan data harga mobil dalam bentuk diagram 
+- ![Data Jarak Tempuh](https://user-images.githubusercontent.com/111255438/190100144-8c9003c2-0ed7-485a-ae9a-64b6b0b85351.png) - pada gambar ini menampilkan data jarak tempuh mobil dalam bentuk diagram
+- ![Data Nilai Korelasi](https://user-images.githubusercontent.com/111255438/190100238-352d6b76-d5fe-4b08-a0dd-76b03c6e6cf7.png) - pada gambar ini menampilkan data spesifikasi mobil yang menentukan nilai korelasi
 
 6. Modeling = Digunakan untuk melatih data yang akan di prediksi.
 7. Prediction = Digunakan untuk memprediksi data yang sudah di modeling.
